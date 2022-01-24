@@ -12,6 +12,7 @@ class fibonacci
    static int fib(int n)
     {
     /* Array For Fibonacci Numbers */
+    /* test change comparasion */
     int f[] = new int[n+2]; // 1 extra to handle case, n = 0
     int i;
       
@@ -32,6 +33,7 @@ class fibonacci
        * @param args[]
        * n= Fib number position
        * passing n=10 to get the 10th number 
+       * The issue is that we need to find the fib number at any position
        * Main Merthod calling Fib method and passing fibonacci number as 10
        */
     public static void main (String args[])
